@@ -195,11 +195,12 @@ ul {
     background: #f53838;
     border-radius: 10px;
     border: 1px solid #f53855;
-    
+    transition: ease .7s;
     font-weight: bold;
     font-size: 16px;
     line-height: 25px;
     color: #ffffff;
+    box-shadow: 0px 20px 60px rgba(250, 30, 30, .8);
 }
 .button1:hover {
     background: white;
@@ -472,8 +473,12 @@ ul {
     top: 1776.55px;
     background: #ffffff;
     border: 2px solid #dddddd;
+    transition: ease .7s;
     box-sizing: border-box;
     border-radius: 10px;
+}
+.rect1:hover{
+    border: 2px solid #da3a3a; 
 }
 .free-img {
     position: absolute;
@@ -667,7 +672,7 @@ ul {
     box-sizing: border-box;
     border-radius: 50px;
     background-color: #ffffff;
-    
+    transition: ease .7s;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
@@ -685,8 +690,12 @@ ul {
     top: 1776.55px;
     background: #ffffff;
     border: 2px solid #dddddd;
+    transition: ease .7s;
     box-sizing: border-box;
     border-radius: 10px;
+}
+.rect2:hover{
+    border: 2px solid #da3a3a;
 }
 .standard-img {
     position: absolute;
@@ -786,7 +795,7 @@ ul {
     border-radius: 50px;
     position: absolute;
     background-color: white;
-    
+    transition: ease .7s;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
@@ -803,9 +812,13 @@ ul {
     left: 935px;
     top: 1776.55px;
     background: #ffffff;
-    border: 2px solid #f53838;
+    border: 2px solid #dddddd;
     box-sizing: border-box;
     border-radius: 10px;
+    transition: ease .7s;
+}
+.rect3:hover{
+    border: 2px solid #da3a3a;
 }
 .premium-img {
     position: absolute;
@@ -911,18 +924,20 @@ ul {
     height: 45px;
     left: 1011.06px;
     top: 2441.55px;
-    background: #f53838;
+    border: 2px solid #f53838;
+    box-sizing: border-box;
     border-radius: 50px;
     position: absolute;
-    
+    background-color: white;
+    transition: ease .7s;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-    color: #ffffff;
+    color: #f53838;
 }
 .button4:hover {
-    background-color: white;
-    color: red;
+    background-color: red;
+    color: white;
 }
 .text6 {
     position: absolute;
@@ -1000,16 +1015,6 @@ ul {
     opacity: 0.06;
     filter: blur(114px);
     border-radius: 10px;
-}
-.blur2 {
-    position: absolute;
-    width: 127.38px;
-    height: 45px;
-    left: 1036.31px;
-    top: 2458.55px;
-    background: rgba(245, 56, 56, 0.35);
-    filter: blur(54px);
-    border-radius: 60px;
 }
 .rect4 {
     position: absolute;
